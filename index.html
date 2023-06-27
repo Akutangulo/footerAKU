@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Akutangulo.com</title>
+</head>
+<body>
 
+    <footer>
+        <div>
+            <div>Web diseñada con amor ❤️ por <a href="https://akutangulo.com" rel="noopener" target="_blank" title="Akutangulo - Páginas web y posicionamiento S.E.O." aria-label="Akutangulo - Páginas web y posicionamiento SEO">Akutangulo.com</a></div>
+
+            <div>Copyright © <span id="copyright-year"></span> by <a href="https://akutangulo.com" rel="noopener" target="_blank" title="Akutangulo - Páginas web y posicionamiento S.E.O." aria-label="Akutangulo - Páginas web y posicionamiento SEO">Akutangulo</a>
+            </div>
+        </div>
+    </footer>
+    
+      <script>
+        //Se asigna directamente el año actual al contenido del elemento span utilizando textContent. La función new Date().getFullYear() se utiliza para obtener el año actual de forma dinámica
+        document.getElementById("copyright-year").textContent = new Date().getFullYear();
+      </script>
+</body>
+</html>
