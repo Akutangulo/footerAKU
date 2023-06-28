@@ -4,17 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Footer Akutangulo.com</title>
+    <style>
+        @charset "utf-8";
+        @font-face {
+ font-family: 'bauhouse_akutangulo';
+ src: url('bauhouse_akutangulo.eot');  
+ src: url('bauhouse_akutangulo.eot?#iefix') format('embedded-opentype'),
+ url('bauhouse_akutangulo.ttf') format('truetype'); 
+}
+.aku {
+	font-family: 'bauhouse_akutangulo', Verdana,  sans-serif;
+	font: 'bauhouse_akutangulo';
+  height: 100%;
+  -webkit-animation: hue-rotate 5s linear infinite;
+          animation: hue-rotate 5s linear infinite;
+}
+
+
+@-webkit-keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+
+
+
+    </style>
 </head>
 <body>
 
+    <figure class="aku">
+		<h1 id="aku">Akutangulo</h1>
+	 </figure>
+
     <footer>
         <div>
-            <div>Web diseñada con amor ❤️ por <a href="https://akutangulo.com" rel="noopener" target="_blank" title="Akutangulo - Páginas web y posicionamiento S.E.O." aria-label="Akutangulo - Páginas web y posicionamiento SEO">Akutangulo.com</a></div>
+            <div>Web diseñada con amor ❤️ por <a href="https://akutangulo.com" rel="noopener" target="_blank" title="Akutangulo - Páginas web y posicionamiento S.E.O." aria-label="Akutangulo - Páginas web y posicionamiento SEO" class="aku">Akutangulo.com</a></div>
 
-            <div>Copyright © <span id="copyright-year"></span> by <a href="https://akutangulo.com" rel="noopener" target="_blank" title="Akutangulo - Páginas web y posicionamiento S.E.O." aria-label="Akutangulo - Páginas web y posicionamiento SEO">Akutangulo</a>
+            <div>Copyright © <span id="copyright-year"></span> by <a href="https://akutangulo.com" rel="noopener" target="_blank" title="Akutangulo - Páginas web y posicionamiento S.E.O." aria-label="Akutangulo - Páginas web y posicionamiento SEO" class="aku">Akutangulo</a>
             </div>
         </div>
     </footer>
+
+
     
       <script>
         //Se asigna directamente el año actual al contenido del elemento span utilizando textContent. La función new Date().getFullYear() se utiliza para obtener el año actual de forma dinámica
